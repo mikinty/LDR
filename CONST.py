@@ -1,7 +1,25 @@
 # Device info
-VID = 0x12AB
-PID = 0x0004
+VID = 0x05ac
+PID = 0x828f
 
+'''
+start = 10
+back = 20
+up = 01
+a = 14:00:10
+down=14:02
+left = 14:04
+right=14:08
+'''
+
+# Wireshark sniffing
+INTERFACE='XHC20'
+GRANULARITY = 8
+
+# Arduino Info
+ARDUINO_SERIAL = '75735353338351911191'
+
+# Decoding the dance pad
 ARRAY_POS_ARROW  = 2
 ARRAY_POS_BUTTON = 3
 
